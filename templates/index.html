@@ -55,7 +55,7 @@
 
             osm.addTo(map);
             datasets.addTo(map);
-            points.addTo(map);
+            // points.addTo(map);
 
             var baseLayers = {
                 "OSM": osm
@@ -68,12 +68,12 @@
                 }
             };
 
-            L.Routing.control({
-                waypoints: [
-                    L.latLng(-0.23, 36.87),
-                    L.latLng(0.23, 37.64)
-                ]
-            }).addTo(map);
+            // L.Routing.control({
+            //     waypoints: [
+            //         L.latLng(-0.23, 36.87),
+            //         L.latLng(0.23, 37.64)
+            //     ]
+            // }).addTo(map);
 
             L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
         }
