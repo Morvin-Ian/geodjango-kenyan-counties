@@ -5,8 +5,6 @@
 
 ## Setup
     1. git clone 'https://github.com/OluochIan/kenyan-health-facilities.git'
-    2. CReate a python virtual environment
-    3. pip install -r requirements.txt
     
 ### Run Application
     - make build
