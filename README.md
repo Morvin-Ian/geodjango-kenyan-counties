@@ -8,10 +8,15 @@
     2. CReate a python virtual environment
     3. pip install -r requirements.txt
     
-### Run
-    1. python manage.py makemigrations
-    2. python manage.py migrate
-    3. python manage.py shell
-        >> from app import load_layer
-        >> load_layer.run()
-    4. python manage.py runserver
+### Run Application
+    - run the command: make build
+    - run the migrate command: make makemigrations
+    - run the migrate command: make migrate
+    - create superuser: make superuser
+    - then run the command: make shell
+        to load the boundaries data run these commands in the shell
+        >>> from app import load_layer
+        >>> load_layer.run()
+        >>> quit()
+
+
