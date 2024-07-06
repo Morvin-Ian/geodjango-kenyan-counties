@@ -9,12 +9,12 @@
     3. pip install -r requirements.txt
     
 ### Run Application
-    - run the command: make build
-    - run the migrate command: make makemigrations
-    - run the migrate command: make migrate
-    - create superuser: make superuser
-    - then run the command: make shell
-        to load the boundaries data run these commands in the shell
+    - make build
+    - make makemigrations
+    - make migrate
+    - make superuser
+    - make shell
+      to load the boundaries data run these commands in the shell
         >>> from app import load_layer
         >>> load_layer.run()
         >>> quit()
