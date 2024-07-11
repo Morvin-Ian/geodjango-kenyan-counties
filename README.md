@@ -1,6 +1,6 @@
 # The 47 Kenyan Counties
 
-![Screenshot from 2024-07-04 06-51-19](https://github.com/OluochIan/kenya-counties-borders/assets/100572229/7425b06a-3cfc-4d4f-8ff6-f68c501bb1d2)
+![Screenshot from 2024-07-11 11-30-12](https://github.com/Morvin-Ian/kenyan-counties-borders/assets/78966128/7791be43-233d-4c5b-a018-8ce5aa4388d2)
 
 
 ## Setup
